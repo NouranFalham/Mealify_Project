@@ -1,0 +1,255 @@
+@media screen and (max-width: 992px) {
+    .home-content
+    {
+        margin-bottom: 2rem;
+        margin-top:0 ;
+        width: 100%;
+        text-align: center;
+    }
+    .home-img
+    {
+        padding-top: 50px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .home-img img {
+        width: 100%;
+        padding-top: 4rem ;
+    }
+    .buttons
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .container
+    {
+        width: 100%;
+    }
+    
+}
+/* Chefs */
+
+@media screen and (max-width: 768px)
+{
+    .container
+    {
+        
+    }
+    .chefs-item
+    {
+        width: 95%;
+        margin: 25px auto;
+    }
+}
+/* Gallery */
+@media screen and (max-width: 768px){
+    .gallery-container
+    {
+        height: fit-content;
+    }
+    .gallery-img{
+        width:97%;
+    }
+    .pic1
+    {
+        order: 1;
+    }
+    .pic2
+    {
+        order: 3;
+    }
+    .pic3
+    {
+        order: 5;
+    }
+    .pic4
+    {
+        order: 4;
+    }
+    .pic5
+    {
+        order: 1;
+    }
+    .pic6
+    {
+        order: 6;
+    }
+    .pic7
+    {
+        order: 7;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) 
+{
+     .gallery-container{
+        height: 1500px;
+    }
+    .gallery-img{
+        width: 47%;
+    }
+    .pic1
+    {
+        order: 1;
+    }
+    .pic2
+    {
+        order: 3;
+    }
+    .pic3
+    {
+        order: 5;
+    }
+    .pic4
+    {
+        order: 4;
+    }
+    .pic5
+    {
+        order: 1;
+    }
+    .pic6
+    {
+        order: 6;
+    }
+    .pic7
+    {
+        order: 7;
+    }
+}
+/* Contact */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+ 
+    .contact-form input 
+    {
+        width: 100%;
+    }
+    .form-row1 .one
+    {
+        margin-bottom: 13px;
+    }
+    .form-row2 textarea
+    {
+        width: 100% ;
+    }
+    .info
+    {
+        width: 48%;
+    }
+    .info1 , .info2 , .info3 , .info4
+    {
+        margin-right: 10px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .contact-form input 
+    {
+        width: 100%;
+    }
+    .form-row1 .one
+    {
+        margin-bottom: 13px;
+    }
+    .form-row2 textarea
+    {
+        width: 100% ;
+    }
+    .info
+    {
+        width: 97%;
+    }
+}
+/* footer */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .footer .container
+    {
+        flex-wrap: wrap;
+    }
+.footer1
+{
+    width: 46%;
+    order: 1;
+}
+.footer3
+{
+    width: 45%;
+    order: 2;
+    margin-left: 2rem;
+}
+.footer2 
+{
+    width: 97%;
+    order: 3;
+}
+.footer1-caption li i
+{
+padding-inline: 35px;
+}
+.footer1 p
+{
+    width: 110%;
+    
+}
+}
+@media screen and (max-width: 768px){
+     .footer .container
+    {
+        flex-wrap: wrap;
+    }
+    .footer1
+    {
+        width: 100%;
+        order: 1;
+        margin-block: 0;
+        padding-block: 0;
+    }
+    .footer2
+    {
+        width: 90%;
+        order: 2;
+        margin-block: 0;
+        padding-block: 0;
+
+    }
+    .footer3
+    {
+        width: 100%;
+        order: 3;
+    
+    }
+    .footer2-links
+    {
+        padding-bottom: 0;
+    }
+    .links2 li , .links1 li
+    {
+        margin-bottom: 0;
+        width: 170px;
+    }
+    .footer1-caption li i
+    {
+        padding-inline: 40px;
+    }
+    .footer2-form
+   {
+        padding-bottom: 15px;
+   }
+   .footer1 p
+   {
+    padding-bottom: 0;
+   }
+   .footer3-item
+{
+    padding: 5px;
+}
+.footer2-form input 
+{
+    width: 61%;
+}
+.footer2-form button
+{
+    width: 25%;
+    height: 41px;
+    
+
+}
